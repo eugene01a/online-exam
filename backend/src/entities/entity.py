@@ -1,6 +1,7 @@
 # coding=utf-8
 
 from datetime import datetime
+
 from sqlalchemy import create_engine, Column, String, Integer, DateTime
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
@@ -9,7 +10,7 @@ db_url = 'localhost:5432'
 db_name = 'online-exam'
 db_user = 'postgres'
 db_password = '0NLIN3-ex4m'
-engine = create_engine(f'sqlite:///{db_name}.db')
+engine = create_engine('sqlite:///{}.db'.format(db_name))
 Session = sessionmaker(bind=engine)
 
 Base = declarative_base()

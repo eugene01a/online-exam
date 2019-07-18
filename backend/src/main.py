@@ -5,10 +5,11 @@ from flask import Flask, jsonify, request
 from .entities.entity import Session, engine, Base
 from .entities.exam import Exam, ExamSchema
 from flask_cors import CORS
+from .auth import AuthError, requires_auth
 
 # creating the Flask application
 app = Flask(__name__)
-CORS(app)
+CORS(app, supports_credentials=True)
 
 # if needed, generate database schema
 Base.metadata.create_all(engine)
@@ -35,7 +36,7 @@ def add_exam():
     posted_exam = ExamSchema(only=('title', 'description'))\
         .load(request.get_json())
 
-    exam = Exam(**posted_exam.data, created_by="HTTP post request")
+    exam = Exam(created_by="HTTP post request", **posted_exam.data)
 
     # persist exam
     session = Session()
@@ -46,3 +47,9 @@ def add_exam():
     new_exam = ExamSchema().dump(exam).data
     session.close()
     return jsonify(new_exam), 201
+
+@app.errorhandler(AuthError)
+def handle_auth_error(ex):
+    response = jsonify(ex.error)
+    response.status_code = ex.status_code
+    return response

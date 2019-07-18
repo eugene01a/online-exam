@@ -11,6 +11,8 @@ psycopg2-binary = "*"
 flask = "*"
 marshmallow = "*"
 flask-cors = "*"
+jose = "*"
+python-jose-cryptodome = "*"
 
 [requires]
 python_version = "3.6"
