@@ -13,6 +13,7 @@ marshmallow = "*"
 flask-cors = "*"
 jose = "*"
 python-jose-cryptodome = "*"
+alembic = "*"
 
 [requires]
 python_version = "3.6"
