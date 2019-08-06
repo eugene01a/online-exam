@@ -16,13 +16,11 @@ import * as Auth0 from 'auth0-web';
     </mat-toolbar>
 
     <div class="view-container">
-      <router-outlet></router-outlet>
-    </div>
+  <router-outlet></router-outlet>
+</div>
   `,
   styleUrls: ['./app.component.css']
 })
-
-
 export class AppComponent implements OnInit {
   authenticated = false;
 
