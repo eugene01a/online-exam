@@ -5,20 +5,26 @@
 
   <!-- This fills the remaining space of the current row -->
   <span class="fill-remaining-space"></span>
-  <button mat-button (click)="openModal('signin-modal')" *ngIf="!authenticated">Sign In</button>
+  <button mat-button (click)="openModal('signin-modal')" *ngIf="!authenticated" >Sign In</button>
   <button mat-button (click)="openModal('signout-modal')" *ngIf="authenticated">Sign Out</button>
 </mat-toolbar>
 
-<div class="view-container">
-  <router-outlet></router-outlet>
-</div>
-
 <jw-modal id="signin-modal">
-  <h1>Sign in button clicked</h1>
-  <button (click)="closeModal('signin-modal');">Close</button>
+  <h1>Sign In</h1>
+  <label for="username">Username</label>
+  <input type="text" id="username" required>
+  <label for="passwd">Password</label>
+  <input type="password" id="passwd" required>
+  <button (click)="closeModal('signin-modal');">Sign in</button>
 </jw-modal>
 
 <jw-modal id="signout-modal">
   <h1>Sign Out button clicked</h1>
   <button (click)="closeModal('signout-modal');">Close</button>
 </jw-modal>
+
+
+<div class="view-container">
+  <router-outlet></router-outlet>
+</div>
+

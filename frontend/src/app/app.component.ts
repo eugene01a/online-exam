@@ -9,7 +9,7 @@ import './_content/modal.less';
   templateUrl: 'app.component.html'
 
 })
-export class AppComponent implements OnInit {
+export class AppComponent {
   authenticated = false;
 
   constructor(private modalService: ModalService) {

@@ -45,45 +45,4 @@ const appRoutes: Routes = [
   bootstrap: [AppComponent]
 })
 export class AppModule {
-  // constructor() {
-  //   Auth0.configure({
-  //     domain: 'dev-s5ay29rq.auth0.com',
-  //     audience: 'https://dev-s5ay29rq.auth0.com/api/v2/',
-  //     clientID: 'T0fB92fSn7yTXou5c94w8hBY0R5nqBHG',
-  //     redirectUri: 'http://localhost:4200/callback',
-  //     scope: 'openid profile manage:exams'
-  //   });
-  // }
 }
-
-// import { NgModule }      from '@angular/core';
-// import { BrowserModule } from '@angular/platform-browser';
-// import { FormsModule }    from '@angular/forms';
-//
-// import { AppComponent }  from './app.component';
-// import { routing }        from './app.routing';
-//
-// import { ModalComponent } from './_directives';
-// import { ModalService } from './_services';
-// import { HomeComponent } from './home';
-// import { TestPageComponent } from './test-page';
-//
-// @NgModule({
-//     imports: [
-//         BrowserModule,
-//         FormsModule,
-//         routing
-//     ],
-//     declarations: [
-//         AppComponent,
-//         ModalComponent,
-//         HomeComponent,
-//         TestPageComponent
-//     ],
-//     providers: [
-//         ModalService
-//     ],
-//     bootstrap: [AppComponent]
-// })
-//
-// export class AppModule { }
