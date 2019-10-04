@@ -2,22 +2,66 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ab947cb5-dc6a-4b95-ad0e-9e7f44ffb685" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/_content/app.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/_content/modal.less" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/_directives/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/_directives/modal.component.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/_services/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/_services/modal.service.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/src/app/app.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/44e75fd3-7749-42a2-ab80-c4f5a0914785.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/44e75fd3-7749-42a2-ab80-c4f5a0914785.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/aa567cd8-5581-4b5e-8069-63c548569092.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/aa567cd8-5581-4b5e-8069-63c548569092.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/entities/auth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/entities/config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/src/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tests/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tests/base.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tests/helpers.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tests/test__config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tests/test_auth.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/backend/tests/test_user_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/_directives/alert.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/_directives/alert.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/_guards/auth.guard.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/_guards/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/_helpers/error.interceptor.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/_helpers/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/_helpers/jwt.interceptor.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/_models/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/_models/user.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/_services/alert.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/_services/authentication.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/_services/user.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/app.routing.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/auth/auth.service.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/auth/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/auth/user.model.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/home/home.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/home/home.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/home/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/login/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/login/login.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/login/login.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/register/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/register/register.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/app/register/register.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/src/typings.d.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend/webpack.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/online-exam.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/online-exam.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/frontend/src/app/app.component.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/backend/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/auth.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/auth.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/entities/entity.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/entities/exam.py" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/entities/exam.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/_directives/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/_directives/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/_services/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/_services/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/_services/modal.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/_services/modal.service.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/app.component.spec.ts" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/app.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/app.module.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/env.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/env.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/app/exams/exam-form.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/app/exams/exam-form.component.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/main.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/src/polyfills.ts" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/src/polyfills.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/tsconfig.spec.json" beforeDir="false" afterPath="$PROJECT_DIR$/frontend/tsconfig.spec.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -47,98 +91,37 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/src/app/app.component.ts">
+        <entry file="file://$PROJECT_DIR$/frontend/tsconfig.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" selection-end-line="29" />
-              <folding>
-                <element signature="e#0#48#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/src/app/env.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/src/app/app.module.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="50" column="9" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
-              <folding>
-                <element signature="e#0#74#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/src/app/exams/exams.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/src/app/_directives/modal.component.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
-              <folding>
-                <element signature="e#0#80#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="405">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/frontend/src/app/app.component.html">
+        <entry file="file://$PROJECT_DIR$/frontend/src/polyfills.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="23" selection-end-column="11" />
+            <state relative-caret-position="609">
+              <caret line="58" selection-start-line="58" selection-end-line="58" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/src/app/_content/modal.less">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/src/app/_directives/index.ts">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/src/app/callback.component.ts">
+        <entry file="file://$PROJECT_DIR$/frontend/src/main.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
-              <folding>
-                <element signature="e#0#35#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="105">
+              <caret line="7" column="34" selection-start-line="7" selection-end-line="8" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/frontend/src/app/app.component.spec.ts">
+        <entry file="file://$PROJECT_DIR$/frontend/webpack.config.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="30" column="3" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
+            <state relative-caret-position="525">
+              <caret line="35" column="14" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -154,23 +137,36 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>user</find>
-      <find>Observable</find>
-      <find>cross</find>
-      <find>allow</find>
-      <find>exam-form</find>
-      <find>&lt;li</find>
-      <find>5000</find>
-      <find>not fou</find>
-      <find>Save</find>
-      <find>inspect</find>
-      <find>exams.component.css</find>
-      <find>Choose an exam and start studying.</find>
-      <find>exams.</find>
-      <find>router</find>
-      <find>mock</find>
       <find>index.html</find>
       <find>Here are the</find>
+      <find>block</find>
+      <find>b</find>
+      <find>hidden</find>
+      <find>url</find>
+      <find>listening on</find>
+      <find>API_URL</find>
+      <find>env.sh</find>
+      <find>sqlite</find>
+      <find>pyc</find>
+      <find>coverage</find>
+      <find>migrations</find>
+      <find>secret</find>
+      <find>valid</find>
+      <find>decode</find>
+      <find>user</find>
+      <find>httpheaders</find>
+      <find>onLogin</find>
+      <find>app-root</find>
+      <find>onSubmit</find>
+      <find>apiURL</find>
+      <find>headers</find>
+      <find>h</find>
+      <find>confi</find>
+      <find>config</find>
+      <find>&lt;a [routerLink]=&quot;['/login']&quot;</find>
+      <find>config.ap</find>
+      <find>globalDependencies</find>
+      <find>ty</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$/frontend/src</dir>
@@ -183,16 +179,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/backend/src/entities/exam.py" />
         <option value="$PROJECT_DIR$/bootstrap.sh" />
         <option value="$PROJECT_DIR$/frontend/src/app/exams/exam.model.ts" />
-        <option value="$PROJECT_DIR$/backend/src/entities/entity.py" />
-        <option value="$PROJECT_DIR$/frontend/src/app/exams/exam-form.component.ts" />
         <option value="$PROJECT_DIR$/frontend/src/app/callback.component.ts" />
-        <option value="$PROJECT_DIR$/frontend/src/app/exams/exams-api.service.ts" />
-        <option value="$PROJECT_DIR$/backend/src/auth.py" />
-        <option value="$PROJECT_DIR$/frontend/src/app/env.ts" />
-        <option value="$PROJECT_DIR$/frontend/src/main.ts" />
         <option value="$PROJECT_DIR$/frontend/src/app/exams/exams.component.css" />
         <option value="$PROJECT_DIR$/backend/src/main.py" />
         <option value="$PROJECT_DIR$/frontend/src/styles.css" />
@@ -200,11 +189,42 @@
         <option value="$PROJECT_DIR$/frontend/src/app/exams/exams.component.ts" />
         <option value="$PROJECT_DIR$/frontend/src/app/home/home.component.html" />
         <option value="$PROJECT_DIR$/frontend/src/app/home/home.component.ts" />
-        <option value="$PROJECT_DIR$/frontend/src/index.html" />
-        <option value="$PROJECT_DIR$/frontend/src/app/app.routing.ts" />
+        <option value="$PROJECT_DIR$/frontend/src/app/exams/exams.component.html" />
+        <option value="$PROJECT_DIR$/frontend/angular.json" />
+        <option value="$PROJECT_DIR$/frontend/src/app/_directives/modal.component.ts" />
+        <option value="$PROJECT_DIR$/frontend/src/app/_content/modal.less" />
+        <option value="$PROJECT_DIR$/auth/.gitignore" />
+        <option value="$PROJECT_DIR$/backend/.gitignore" />
+        <option value="$PROJECT_DIR$/backend/src/entities/models.py" />
+        <option value="$PROJECT_DIR$/backend/src/entities/entity.py" />
+        <option value="$PROJECT_DIR$/backend/src/entities/exam.py" />
+        <option value="$PROJECT_DIR$/backend/src/entities/auth.py" />
+        <option value="$PROJECT_DIR$/backend/src/entities/config.py" />
+        <option value="$PROJECT_DIR$/backend/src/auth.py" />
+        <option value="$PROJECT_DIR$/frontend/src/app/exams/exam-form.component.ts" />
+        <option value="$PROJECT_DIR$/frontend/src/app/_directives/user.model.ts" />
+        <option value="$PROJECT_DIR$/frontend/src/app/exams/exams-api.service.ts" />
+        <option value="$PROJECT_DIR$/frontend/src/app/_services/auth.service.ts" />
+        <option value="$PROJECT_DIR$/frontend/src/app/_services/modal.service.ts" />
         <option value="$PROJECT_DIR$/frontend/src/app/app.component.html" />
         <option value="$PROJECT_DIR$/frontend/src/app/app.component.ts" />
+        <option value="$PROJECT_DIR$/frontend/src/app/_directives/index.ts" />
+        <option value="$PROJECT_DIR$/frontend/src/app/_services/index.ts" />
         <option value="$PROJECT_DIR$/frontend/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/frontend/src/app/login/login.component.ts" />
+        <option value="$PROJECT_DIR$/frontend/src/index.html" />
+        <option value="$PROJECT_DIR$/frontend/src/app/_helpers/index.ts" />
+        <option value="$PROJECT_DIR$/frontend/src/app/env.ts" />
+        <option value="$PROJECT_DIR$/frontend/src/app/register/register.component.html" />
+        <option value="$PROJECT_DIR$/frontend/src/typings.d.ts" />
+        <option value="$PROJECT_DIR$/frontend/src/app/_services/user.service.ts" />
+        <option value="$PROJECT_DIR$/frontend/src/app/app.routing.ts" />
+        <option value="$PROJECT_DIR$/frontend/src/app/_services/authentication.service.ts" />
+        <option value="$PROJECT_DIR$/frontend/tsconfig.spec.json" />
+        <option value="$PROJECT_DIR$/frontend/tsconfig.json" />
+        <option value="$PROJECT_DIR$/frontend/webpack.config.js" />
+        <option value="$PROJECT_DIR$/frontend/src/main.ts" />
+        <option value="$PROJECT_DIR$/frontend/src/polyfills.ts" />
       </list>
     </option>
   </component>
@@ -231,6 +251,17 @@
             <path>
               <item name="online-exam" type="b2602c69:ProjectViewProjectNode" />
               <item name="online-exam" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="online-exam" type="b2602c69:ProjectViewProjectNode" />
+              <item name="online-exam" type="462c0819:PsiDirectoryNode" />
+              <item name="backend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="online-exam" type="b2602c69:ProjectViewProjectNode" />
+              <item name="online-exam" type="462c0819:PsiDirectoryNode" />
               <item name="frontend" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -246,6 +277,54 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="online-exam" type="b2602c69:ProjectViewProjectNode" />
+              <item name="online-exam" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="_directives" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="online-exam" type="b2602c69:ProjectViewProjectNode" />
+              <item name="online-exam" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="_services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="online-exam" type="b2602c69:ProjectViewProjectNode" />
+              <item name="online-exam" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="auth" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="online-exam" type="b2602c69:ProjectViewProjectNode" />
+              <item name="online-exam" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="home" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="online-exam" type="b2602c69:ProjectViewProjectNode" />
+              <item name="online-exam" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="online-exam" type="b2602c69:ProjectViewProjectNode" />
+              <item name="online-exam" type="462c0819:PsiDirectoryNode" />
+              <item name="frontend" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="register" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -259,12 +338,23 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.editor" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/frontend/node_modules/typescript/lib" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/backend" />
+      <recent name="$PROJECT_DIR$/frontend/src/app" />
+      <recent name="$PROJECT_DIR$/frontend/src/app/auth" />
+      <recent name="$PROJECT_DIR$/frontend/src/app/_services" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/backend/src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/frontend" />
+      <recent name="$PROJECT_DIR$/frontend/src" />
+      <recent name="$PROJECT_DIR$/frontend/src/app" />
+      <recent name="$PROJECT_DIR$/frontend/src/app/_directives" />
+      <recent name="$PROJECT_DIR$/frontend/src/app/_services" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -280,7 +370,7 @@
     </option>
   </component>
   <component name="RunManager" selected="npm.ng serve">
-    <configuration name="http://localhost:4200/" type="JavascriptDebugType" editBeforeRun="true" uri="http://localhost:4200/" useFirstLineBreakpoints="true">
+    <configuration name="http://localhost:4200/" type="JavascriptDebugType" activateToolWindowBeforeRun="false" uri="http://localhost:4200/" useFirstLineBreakpoints="true">
       <method v="2" />
     </configuration>
     <configuration name="ng serve" type="js.build_tools.npm" nameIsGenerated="true">
@@ -312,23 +402,37 @@
       <workItem from="1569288968395" duration="1932000" />
       <workItem from="1569345695219" duration="2410000" />
       <workItem from="1569348158944" duration="2454000" />
-      <workItem from="1569361455074" duration="611000" />
+      <workItem from="1569361455074" duration="3049000" />
+      <workItem from="1569382569905" duration="325000" />
+      <workItem from="1569382910655" duration="7441000" />
+      <workItem from="1569453122850" duration="3988000" />
+      <workItem from="1569460919554" duration="6123000" />
+      <workItem from="1569887073220" duration="5168000" />
+      <workItem from="1569978771245" duration="1312000" />
+      <workItem from="1569980113659" duration="1035000" />
+      <workItem from="1569981851997" duration="803000" />
+      <workItem from="1569982752508" duration="117000" />
+      <workItem from="1569985733487" duration="667000" />
+      <workItem from="1570120917946" duration="175000" />
+      <workItem from="1570121109643" duration="4466000" />
+      <workItem from="1570127207533" duration="14000" />
+      <workItem from="1570146664504" duration="1099000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7923000" />
+    <option name="totallyTimeSpent" value="43094000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28540772" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34120172" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32884902" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39910313" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32884902" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32713756" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.2503098" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -336,9 +440,9 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="10" weight="0.32917705" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.4944238" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.21933086" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="13" weight="0.32884902" />
+      <window_info anchor="bottom" id="Python Console" order="13" weight="0.3283767" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -346,13 +450,13 @@
       <window_info anchor="right" id="SciView" order="4" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27539343" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3104435" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32884902" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32713756" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.25047082" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -360,9 +464,9 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="TypeScript" order="10" weight="0.32917705" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.49566296" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.21973094" />
       <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="13" weight="0.32917705" />
+      <window_info anchor="bottom" id="Python Console" order="13" weight="0.32884902" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -382,150 +486,38 @@
           <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/frontend/src/app/_services/modal.service.ts</url>
-          <line>16</line>
-          <option name="timeStamp" value="12" />
+          <url>file://$PROJECT_DIR$/frontend/src/app/_directives/modal.component.ts</url>
+          <line>54</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/frontend/src/app/_directives/modal.component.ts</url>
-          <line>53</line>
-          <option name="timeStamp" value="13" />
+          <url>file://$PROJECT_DIR$/frontend/src/app/app.component.html</url>
+          <line>9</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/frontend/src/app/app.component.ts</url>
+          <line>6</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/frontend/src/app/login/login.component.ts</url>
+          <line>46</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/frontend/src/app/_services/authentication.service.ts</url>
+          <line>10</line>
+          <option name="timeStamp" value="35" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/frontend/tsconfig.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/yarn-error.log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/tslint.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/Pipfile.lock">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5337" />
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.pyenv/versions/angular-2/lib/python2.7/site-packages/flask_cors/extension.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="86" column="31" selection-start-line="86" selection-start-column="11" selection-end-line="86" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/Pipfile">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$USER_HOME$/.pyenv/versions/2.7.15/lib/python2.7/urllib.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/e2e/tsconfig.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/e2e/protractor.conf.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/entities/exam.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/entities/entity.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="24" column="20" selection-start-line="24" selection-start-column="20" selection-end-line="24" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/test.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/auth.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="17" column="28" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/src/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/node_modules/hammerjs/Gruntfile.coffee">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="108" column="11" selection-start-line="108" selection-start-column="11" selection-end-line="108" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/backend/bootstrap.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/node_modules/@angular/material/typings/toolbar/toolbar.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="2" lean-forward="true" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/angular.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/node_modules/auth0-web/src/index.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="59" column="13" selection-start-line="59" selection-start-column="2" selection-end-line="59" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="20" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/app/home/home.component.html" />
-    <entry file="file://$PROJECT_DIR$/frontend/src/app/home/index.ts" />
-    <entry file="http://localhost:4200/node_modules/rxjs/_esm2015/internal/Subscriber.js">
-      <provider selected="true" editor-type-id="httpFileEditor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/app/test-page/test-page.component.html" />
-    <entry file="file://$PROJECT_DIR$/frontend/src/app/test-page/test-page.component.ts" />
     <entry file="file://$PROJECT_DIR$/frontend/src/app/exams/exams-api.service.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-81">
-          <caret line="13" selection-start-line="13" selection-end-line="14" selection-end-column="3" />
+        <state relative-caret-position="140">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding>
             <element signature="e#0#41#0" expanded="true" />
           </folding>
@@ -534,68 +526,149 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/src/app/exams/exams.component.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        <state relative-caret-position="105">
+          <caret line="7" column="18" lean-forward="true" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/app/_services/index.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/app/exams/exam-form.component.ts">
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/_directives/modal.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="42" selection-end-column="1" />
+        <state relative-caret-position="-180">
+          <caret line="17" column="25" lean-forward="true" selection-start-line="17" selection-start-column="25" selection-end-line="17" selection-end-column="25" />
+          <folding>
+            <element signature="e#0#80#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/node_modules/rxjs/src/internal/Observable.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="125">
+          <caret line="79" column="2" selection-start-line="79" selection-start-column="2" selection-end-line="79" selection-end-column="2" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/src/app/exams/exam.model.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="75">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/app/_services/modal.service.ts">
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/exams/exam-form.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="http://localhost:4200/main.js">
-      <provider selected="true" editor-type-id="httpFileEditor" />
-    </entry>
-    <entry file="http://localhost:4200/node_modules/@angular/core/fesm2015/core.js">
-      <provider selected="true" editor-type-id="httpFileEditor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/polyfills.ts">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/main.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="375">
+          <caret line="28" column="3" selection-start-line="26" selection-start-column="2" selection-end-line="28" selection-end-column="3" />
           <folding>
-            <element signature="e#0#18#0" expanded="true" />
+            <element signature="e#0#40#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/app/home/home.component.ts" />
-    <entry file="file://$PROJECT_DIR$/frontend/src/app/_content/app.less">
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/exams/exams.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-224" />
+        <state relative-caret-position="660">
+          <caret line="48" column="3" selection-start-line="38" selection-start-column="2" selection-end-line="48" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/app/app.routing.ts" />
-    <entry file="file://$PROJECT_DIR$/frontend/src/app/app.component.css" />
-    <entry file="file://$PROJECT_DIR$/frontend/src/app/app.component.ts">
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/_services/alert.service.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/_guards/index.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/home/index.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/_directives/index.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" selection-end-line="29" />
+        <state relative-caret-position="15">
+          <caret line="1" column="34" selection-start-line="1" selection-start-column="34" selection-end-line="1" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/_models/user.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/_helpers/fake-backend.ts" />
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/app.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="53" column="26" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="26" />
           <folding>
-            <element signature="e#0#48#0" expanded="true" />
+            <element signature="e#0#74#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/_helpers/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/auth/index.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/auth/user.model.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="33" column="10" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="10" />
+          <folding>
+            <element signature="e#16#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/_services/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/backend/src/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="128" column="43" selection-start-line="128" selection-start-column="38" selection-end-line="128" selection-end-column="43" />
+          <folding>
+            <element signature="e#376#1709#0" />
+            <element signature="e#581#1487#0" />
+            <element signature="e#602#1222#0" />
+            <element signature="e#982#1155#0" />
+            <element signature="e#1274#1487#0" />
+            <element signature="e#1291#1420#0" />
+            <element signature="e#1514#1709#0" />
+            <element signature="e#1531#1646#0" />
+            <element signature="e#2257#2533#0" />
+            <element signature="e#2274#2462#0" />
+            <element signature="e#2568#2763#0" />
+            <element signature="e#2585#2696#0" />
+            <element signature="e#2807#2996#0" />
+            <element signature="e#2845#2933#0" />
+            <element signature="e#3309#3507#0" />
+            <element signature="e#3326#3440#0" />
+            <element signature="e#3585#4310#0" />
+            <element signature="e#3685#4136#0" />
+            <element signature="e#3763#4069#0" />
+            <element signature="e#3834#4051#0" />
+            <element signature="e#4166#4247#0" />
+            <element signature="e#5086#5435#0" />
+            <element signature="e#5234#5364#0" />
+            <element signature="e#5495#5685#0" />
+            <element signature="e#5512#5614#0" />
           </folding>
         </state>
       </provider>
@@ -603,67 +676,224 @@
     <entry file="file://$PROJECT_DIR$/frontend/src/app/env.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+          <caret line="1" column="21" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/app/exams/exams.component.ts">
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/auth/auth.service.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="11" selection-start-line="21" selection-start-column="11" selection-end-line="21" selection-end-column="11" />
-          <folding>
-            <element signature="e#0#35#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/app/_directives/modal.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="2" selection-start-line="13" selection-start-column="2" selection-end-line="13" selection-end-column="2" />
+        <state relative-caret-position="90">
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
           <folding>
             <element signature="e#0#80#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/app/_content/modal.less">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/app/_directives/index.ts">
-      <provider selected="true" editor-type-id="text-editor" />
+    <entry file="file://$PROJECT_DIR$/backend/src/auth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/frontend/src/app/callback.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="3" selection-start-line="19" selection-start-column="3" selection-end-line="19" selection-end-column="3" />
+        <state relative-caret-position="180">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
           <folding>
             <element signature="e#0#35#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/app/app.component.spec.ts">
+    <entry file="file://$PROJECT_DIR$/frontend/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="30" column="3" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
+        <state relative-caret-position="180">
+          <caret line="12" column="23" lean-forward="true" selection-start-line="12" selection-end-line="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/app/app.module.ts">
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/register/register.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="50" column="9" selection-start-line="50" selection-start-column="9" selection-end-line="50" selection-end-column="9" />
+        <state relative-caret-position="600">
+          <caret line="45" column="42" selection-start-line="45" selection-start-column="41" selection-end-line="45" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/register/register.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="6" column="18" lean-forward="true" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/register/index.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/home/home.component.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="19" selection-start-line="5" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="18" lean-forward="true" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/login/index.ts">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/_directives/alert.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="12" column="17" lean-forward="true" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/login/login.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="9" column="28" lean-forward="true" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/login/login.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-45">
+          <caret line="18" column="60" selection-start-line="18" selection-start-column="39" selection-end-line="18" selection-end-column="60" />
           <folding>
-            <element signature="e#0#74#0" expanded="true" />
+            <element signature="e#785#893#0" />
+            <element signature="e#1355#1386#0" />
+            <element signature="e#1579#1658#0" />
+            <element signature="e#1685#1798#0" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frontend/src/app/app.component.html">
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/home/home.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="23" selection-end-column="11" />
+        <state relative-caret-position="225">
+          <caret line="15" column="10" selection-start-line="15" selection-end-line="16" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/_services/modal.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/_services/authentication.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/_services/user.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="5" lean-forward="true" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/typings.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="54" lean-forward="true" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/tslint.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-986" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/tsconfig.spec.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="12" lean-forward="true" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/tsconfig.app.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="4" lean-forward="true" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="216">
+            <caret line="14" column="113" lean-forward="true" selection-start-line="14" selection-start-column="113" selection-end-line="14" selection-end-column="113" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-390" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/app/app.routing.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="7" lean-forward="true" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/tsconfig.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/main.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="34" selection-start-line="7" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="14" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frontend/src/polyfills.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="609">
+          <caret line="58" selection-start-line="58" selection-end-line="58" />
         </state>
       </provider>
     </entry>

@@ -1,9 +1,20 @@
 # coding=utf-8
+from datetime import datetime
 
-from sqlalchemy import Column, String
-
-from .entity import Entity, Base
 from marshmallow import Schema, fields
+from sqlalchemy import Column, String, Integer, DateTime
+from .config import Base
+
+class Entity():
+    id = Column(Integer, primary_key=True)
+    created_at = Column(DateTime)
+    updated_at = Column(DateTime)
+    last_updated_by = Column(String)
+
+    def __init__(self, created_by):
+        self.created_at = datetime.now()
+        self.updated_at = datetime.now()
+        self.last_updated_by = created_by
 
 
 class Exam(Entity, Base):
@@ -17,6 +28,8 @@ class Exam(Entity, Base):
         self.title = title
         self.description = description
         self.long_description = long_description
+
+
 class ExamSchema(Schema):
     id = fields.Number()
     title = fields.Str()

@@ -8,7 +8,7 @@ import {Router} from "@angular/router";
   template: `
     <div>
       <h2>New Exam</h2>
-      <label for="exam-title">Title</label>
+        <label for="exam-title">Title</label>
       <input id="exam-title" (keyup)="updateTitle($event)">
       <label for="exam-description">Description</label>
       <input id="exam-description" (keyup)="updateDescription($event)">

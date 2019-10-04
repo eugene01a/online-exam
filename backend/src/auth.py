@@ -4,9 +4,6 @@ from functools import wraps
 from jose import jwt
 from urllib2 import urlopen
 
-AUTH0_DOMAIN = 'dev-s5ay29rq.auth0.com'
-ALGORITHMS = ['RS256']
-API_AUDIENCE = 'https://dev-s5ay29rq.auth0.com/api/v2/'
 
 
 class AuthError(Exception):

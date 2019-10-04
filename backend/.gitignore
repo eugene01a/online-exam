@@ -103,3 +103,14 @@ ENV/
 .idea/
 *.iml
 .DS_Store
+
+.env
+env
+env.sh
+venv
+temp
+tmp
+__pycache__
+
+*.sqlite
+migrations

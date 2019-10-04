@@ -1,28 +1,30 @@
 import {NoopAnimationsModule} from '@angular/platform-browser/animations';
 import {MatButtonModule, MatCardModule, MatToolbarModule} from '@angular/material';
-import * as Auth0 from 'auth0-web';
 import {CallbackComponent} from './callback.component';
 import {BrowserModule} from '@angular/platform-browser';
 import {NgModule} from '@angular/core';
-import {HttpClientModule} from '@angular/common/http';
+import {HTTP_INTERCEPTORS, HttpClientModule} from '@angular/common/http';
 import {AppComponent} from './app.component';
 import {ExamsApiService} from './exams/exams-api.service';
 import {ExamFormComponent} from './exams/exam-form.component';
-import {RouterModule, Routes} from '@angular/router';
 import {ExamsComponent} from './exams/exams.component';
-import {FormsModule} from '@angular/forms';
-import {ModalComponent} from './_directives';
-import {ModalService} from './_services';
-
-
-const appRoutes: Routes = [
-  {path: 'callback', component: CallbackComponent},
-  {path: 'new-exam', component: ExamFormComponent},
-  {path: '', component: ExamsComponent},
-];
+import {FormsModule, ReactiveFormsModule} from '@angular/forms';
+import {AlertComponent, ModalComponent} from './_directives';
+import {AlertService, AuthenticationService, ModalService, UserService} from './_services';
+import {AuthService} from './auth/auth.service';
+import {ErrorInterceptor, JwtInterceptor} from './_helpers';
+import {routing} from './app.routing';
+import {AuthGuard} from './_guards';
+import {HomeComponent} from './home';
+import {LoginComponent} from './login';
+import {RegisterComponent} from './register';
 
 @NgModule({
   declarations: [
+    AlertComponent,
+    HomeComponent,
+    LoginComponent,
+    RegisterComponent,
     AppComponent,
     ExamFormComponent,
     ExamsComponent,
@@ -31,18 +33,29 @@ const appRoutes: Routes = [
   ],
   imports: [
     BrowserModule,
+    ReactiveFormsModule,
     HttpClientModule,
-    RouterModule.forRoot(
-      appRoutes,
-    ),
+    routing,
+    HttpClientModule,
     NoopAnimationsModule,
     MatToolbarModule,
     MatButtonModule,
     MatCardModule,
     FormsModule,
   ],
-  providers: [ExamsApiService, ModalService],
+  providers: [
+    ExamsApiService,
+    ModalService,
+    AuthService,
+    AuthGuard,
+    AlertService,
+    AuthenticationService,
+    UserService,
+    {provide: HTTP_INTERCEPTORS, useClass: JwtInterceptor, multi: true},
+    {provide: HTTP_INTERCEPTORS, useClass: ErrorInterceptor, multi: true},
+  ],
   bootstrap: [AppComponent]
 })
+
 export class AppModule {
 }

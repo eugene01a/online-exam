@@ -1,4 +1,7 @@
-﻿export class ModalService {
+﻿import {AuthService} from "../auth/auth.service";
+
+export class ModalService {
+  constructor(private authService: AuthService) { }
     private modals: any[] = [];
 
     add(modal: any) {
