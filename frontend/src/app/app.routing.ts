@@ -1,22 +1,18 @@
 ﻿import {RouterModule, Routes} from '@angular/router';
 
-import {HomeComponent} from './home';
 import {LoginComponent} from './login';
 import {RegisterComponent} from './register';
 import {AuthGuard} from './_guards';
-import {CallbackComponent} from "./callback.component";
+
 import {ExamFormComponent} from "./exams/exam-form.component";
+import {ExamsComponent} from "./exams/exams.component";
 
 const appRoutes: Routes = [
-  {path: '', component: HomeComponent, canActivate: [AuthGuard]},
   {path: 'login', component: LoginComponent},
   {path: 'register', component: RegisterComponent},
-  {path: 'callback', component: CallbackComponent},
-  {path: 'new-exam', component: ExamFormComponent},
-
-
-  // otherwise redirect to home
-  {path: '**', redirectTo: ''}
+  {path: 'new-exam', component: ExamFormComponent, canActivate: [AuthGuard]},
+  {path: 'exams', component: ExamsComponent, canActivate: [AuthGuard]},
+  {path: '**', redirectTo: 'exams'}
 ];
 
 export const routing = RouterModule.forRoot(appRoutes);

@@ -1,9 +1,8 @@
 import {NoopAnimationsModule} from '@angular/platform-browser/animations';
 import {MatButtonModule, MatCardModule, MatToolbarModule} from '@angular/material';
-import {CallbackComponent} from './callback.component';
 import {BrowserModule} from '@angular/platform-browser';
 import {NgModule} from '@angular/core';
-import {HTTP_INTERCEPTORS, HttpClientModule} from '@angular/common/http';
+import {HttpClientModule} from '@angular/common/http';
 import {AppComponent} from './app.component';
 import {ExamsApiService} from './exams/exams-api.service';
 import {ExamFormComponent} from './exams/exam-form.component';
@@ -11,25 +10,23 @@ import {ExamsComponent} from './exams/exams.component';
 import {FormsModule, ReactiveFormsModule} from '@angular/forms';
 import {AlertComponent, ModalComponent} from './_directives';
 import {AlertService, AuthenticationService, ModalService, UserService} from './_services';
-import {AuthService} from './auth/auth.service';
-import {ErrorInterceptor, JwtInterceptor} from './_helpers';
 import {routing} from './app.routing';
 import {AuthGuard} from './_guards';
-import {HomeComponent} from './home';
 import {LoginComponent} from './login';
 import {RegisterComponent} from './register';
+import {LogoutComponent} from "./logout";
+import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
 
 @NgModule({
   declarations: [
     AlertComponent,
-    HomeComponent,
     LoginComponent,
+    LogoutComponent,
     RegisterComponent,
     AppComponent,
     ExamFormComponent,
     ExamsComponent,
-    CallbackComponent,
-    ModalComponent,
+    ModalComponent
   ],
   imports: [
     BrowserModule,
@@ -45,12 +42,11 @@ import {RegisterComponent} from './register';
   ],
   providers: [
     ExamsApiService,
-    ModalService,
-    AuthService,
     AuthGuard,
     AlertService,
     AuthenticationService,
     UserService,
+    ModalService,
     {provide: HTTP_INTERCEPTORS, useClass: JwtInterceptor, multi: true},
     {provide: HTTP_INTERCEPTORS, useClass: ErrorInterceptor, multi: true},
   ],

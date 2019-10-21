@@ -1,16 +1,10 @@
-﻿import { Component, ElementRef, Input, OnInit, OnDestroy } from '@angular/core';
+import { Component, ElementRef, Input, OnInit, OnDestroy } from '@angular/core';
 
 import { ModalService } from '../_services';
 
 @Component({
-    selector: 'jw-modal',
-    template: 
-        `<div class="jw-modal">
-            <div class="jw-modal-body">
-                <ng-content></ng-content>
-            </div>
-        </div>
-        <div class="jw-modal-background"></div>`
+    selector: 'modal',
+    template: '<ng-content></ng-content>'
 })
 
 export class ModalComponent implements OnInit, OnDestroy {
@@ -35,14 +29,13 @@ export class ModalComponent implements OnInit, OnDestroy {
 
         // close modal on background click
         this.element.addEventListener('click', function (e: any) {
-            if (e.target.className === 'jw-modal') {
+            if (e.target.className === 'modal') {
                 modal.close();
             }
         });
 
         // add self (this modal instance) to the modal service so it's accessible from controllers
         this.modalService.add(this);
-
     }
 
     // remove self from modal service when directive is destroyed
@@ -54,12 +47,12 @@ export class ModalComponent implements OnInit, OnDestroy {
     // open modal
     open(): void {
         this.element.style.display = 'block';
-        document.body.classList.add('jw-modal-open');
+        document.body.classList.add('modal-open');
     }
 
     // close modal
     close(): void {
         this.element.style.display = 'none';
-        document.body.classList.remove('jw-modal-open');
+        document.body.classList.remove('modal-open');
     }
 }

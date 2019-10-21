@@ -2,7 +2,7 @@ import {Injectable} from '@angular/core';
 import {HttpClient, HttpErrorResponse, HttpHeaders} from '@angular/common/http';
 import {Observable} from 'rxjs/Observable';
 import 'rxjs/add/operator/catch';
-import {API_URL} from '../env';
+import {environment} from '../../environments/environment';
 import {Exam} from './exam.model';
 import { throwError } from 'rxjs';
 import * as Auth0 from 'auth0-web';
@@ -21,7 +21,7 @@ export class ExamsApiService {
   // GET list of public, future events
   getExams(): Observable<Exam[]> {
     return this.http
-      .get < Exam[] > (`${API_URL}/exams`)
+      .get < Exam[] > (`${environment.apiUrl}/exams`)
       .catch(ExamsApiService._handleError);
   }
    saveExam(exam: Exam): Observable<any> {
@@ -31,6 +31,6 @@ export class ExamsApiService {
        })
      };
      return this.http
-       .post(`${API_URL}/exams`, exam, httpOptions);
+       .post(`${environment.apiUrl}/exams`, exam, httpOptions);
    }
 }

@@ -44,3 +44,17 @@ testem.log
 # System Files
 .DS_Store
 Thumbs.db
+
+.env
+env
+venv
+temp
+tmp
+__pycache__
+
+*.pyc
+*.sqlite
+*.coverage
+env.sh
+migrations
+
