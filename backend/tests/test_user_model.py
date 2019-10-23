@@ -3,7 +3,7 @@
 import unittest
 
 from project.server import db
-from project.server.models import User
+from project.server.auth.models import User
 from project.tests.base import BaseTestCase
 
 

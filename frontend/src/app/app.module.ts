@@ -2,7 +2,6 @@ import {NoopAnimationsModule} from '@angular/platform-browser/animations';
 import {MatButtonModule, MatCardModule, MatToolbarModule} from '@angular/material';
 import {BrowserModule} from '@angular/platform-browser';
 import {NgModule} from '@angular/core';
-import {HttpClientModule} from '@angular/common/http';
 import {AppComponent} from './app.component';
 import {ExamsApiService} from './exams/exams-api.service';
 import {ExamFormComponent} from './exams/exam-form.component';
@@ -16,6 +15,7 @@ import {LoginComponent} from './login';
 import {RegisterComponent} from './register';
 import {LogoutComponent} from "./logout";
 import { HttpClientModule, HTTP_INTERCEPTORS } from '@angular/common/http';
+import {JwtInterceptor, ErrorInterceptor} from "./_helpers";
 
 @NgModule({
   declarations: [

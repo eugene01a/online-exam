@@ -5,7 +5,7 @@ import time
 import unittest
 
 from project.server import db
-from project.server.models import User, BlacklistToken
+from project.server.auth.models import User, BlacklistToken
 from project.tests.base import BaseTestCase
 
 

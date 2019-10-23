@@ -20,24 +20,11 @@
         </library>
       </libraries>
     </data-source>
-    <data-source source="LOCAL" name="{db_name}" uuid="44e75fd3-7749-42a2-ab80-c4f5a0914785">
-      <driver-ref>sqlite.xerial</driver-ref>
+    <data-source source="LOCAL" name="flask_jwt_auth_dev@localhost" uuid="4b81c638-7651-4d4c-8ab5-82dfec37feb3">
+      <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
-      <imported>true</imported>
-      <remarks>SQLite</remarks>
-      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
-      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/backend/{db_name}.db</jdbc-url>
-      <driver-properties>
-        <property name="enable_load_extension" value="true" />
-      </driver-properties>
-      <libraries>
-        <library>
-          <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/Xerial SQLiteJDBC/3.25.1/sqlite-jdbc-3.25.1.jar</url>
-        </library>
-        <library>
-          <url>file://$APPLICATION_CONFIG_DIR$/jdbc-drivers/Xerial SQLiteJDBC/3.25.1/license.txt</url>
-        </library>
-      </libraries>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/flask_jwt_auth_dev</jdbc-url>
     </data-source>
   </component>
 </project>

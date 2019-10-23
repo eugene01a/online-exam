@@ -1,7 +1,7 @@
 ﻿import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { environment } from '../../environments/environment';
-import { User } from '../_models';
+import { User, Registration } from '../_models';
 
 @Injectable()
 export class UserService {
@@ -15,8 +15,11 @@ export class UserService {
         return this.http.get(`${environment.authUrl}/users/` + id);
     }
 
-    register(user: User) {
-        return this.http.post(`${environment.authUrl}/auth/register`, user);
+    register(registration: Registration) {
+        return this.http.post(`${environment.authUrl}/auth/register`, registration)
+    }
+    approve(registration: Registration){
+      return this.http.post(`${environment.authUrl}/auth/approve`, registration)
     }
 
     update(user: User) {
