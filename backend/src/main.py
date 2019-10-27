@@ -6,7 +6,7 @@ from .entities.entity import Session, engine, Base
 from .entities.exam import Exam, ExamSchema
 from flask_cors import CORS
 from .auth import AuthError, requires_auth
-from auth import requires_auth, requires_role
+from project.server import requires_auth, requires_role
 
 # creating the Flask application
 app = Flask(__name__)

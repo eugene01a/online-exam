@@ -2,23 +2,10 @@
 
 import os
 
-from sqlalchemy import create_engine
-from sqlalchemy.ext.declarative import declarative_base
-from sqlalchemy.orm import sessionmaker
-
 basedir = os.path.abspath(os.path.dirname(__file__))
-SECRET_KEY = os.getenv('SECRET_KEY', 'my_precious')
-db_url = 'localhost:5432'
-db_name = 'online-exam'
-db_user = 'postgres'
-db_password = '0NLIN3-ex4m'
-SECRET_KEY = os.getenv('SECRET_KEY', 'my_precious')
 postgres_local_base = 'postgresql://postgres:@localhost/'
-engine = create_engine(postgres_local_base + format(db_name))
-Session = sessionmaker(bind=engine)
-
-Base = declarative_base()
-
+database_name = 'flask_jwt_auth'
+ADMINS = ['ichinose.household@gmail.com']
 
 class BaseConfig:
     """Base configuration."""
@@ -26,13 +13,15 @@ class BaseConfig:
     DEBUG = False
     BCRYPT_LOG_ROUNDS = 13
     SQLALCHEMY_TRACK_MODIFICATIONS = False
+    MAIL_SERVER = "localhost"
+    MAIL_PORT = 8025
 
 
 class DevelopmentConfig(BaseConfig):
     """Development configuration."""
     DEBUG = True
     BCRYPT_LOG_ROUNDS = 4
-    SQLALCHEMY_DATABASE_URI = postgres_local_base + db_name
+    SQLALCHEMY_DATABASE_URI = postgres_local_base + database_name+ '_dev'
 
 
 class TestingConfig(BaseConfig):
@@ -40,12 +29,17 @@ class TestingConfig(BaseConfig):
     DEBUG = True
     TESTING = True
     BCRYPT_LOG_ROUNDS = 4
-    SQLALCHEMY_DATABASE_URI = postgres_local_base + db_name + '_test'
+    SQLALCHEMY_DATABASE_URI = postgres_local_base + database_name + '_test'
     PRESERVE_CONTEXT_ON_EXCEPTION = False
 
 
 class ProductionConfig(BaseConfig):
     """Production configuration."""
-    SECRET_KEY = 'my_precious'
+    SECRET_KEY = os.getenv('SECRET_KEY')
     DEBUG = False
-    SQLALCHEMY_DATABASE_URI = 'postgresql:///example'
+    SQLALCHEMY_DATABASE_URI = postgres_local_base + database_name
+    MAIL_SERVER = "smtp.googlemail.com"
+    MAIL_PORT = 587
+    MAIL_USE_TLS = 1
+    MAIL_USERNAME = os.environ.get('MAIL_USERNAME')
+    MAIL_PASSWORD = os.environ.get('MAIL_PASSWORD')

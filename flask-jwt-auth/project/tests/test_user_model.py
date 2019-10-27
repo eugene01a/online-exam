@@ -3,17 +3,18 @@
 import unittest
 
 from project.server import db
-from project.servermodels import User
-from tests import BaseTestCase
+from project.servermodels.user import User
+from tests.base import BaseTestCase
 
 
 class TestUserModel(BaseTestCase):
 
     def test_encode_auth_token(self):
         user = User(
-            email='test@test.com',
-            password='test'
+            registration_id=1,
+            password='test_password'
         )
+
         db.session.add(user)
         db.session.commit()
         auth_token = user.encode_auth_token(user.id)
@@ -21,8 +22,8 @@ class TestUserModel(BaseTestCase):
 
     def test_decode_auth_token(self):
         user = User(
-            email='test@test.com',
-            password='test'
+            registration_id=1,
+            password='test_password'
         )
         db.session.add(user)
         db.session.commit()
